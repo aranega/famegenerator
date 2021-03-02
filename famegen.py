@@ -29,7 +29,7 @@ class MetamodelStatus(object):
 
 
 class FameGenerator(object):
-    template = 'famixgen.mako'
+    template = 'famegen.mako'
 
     def __init__(self, ePackage):
         self.ePackage = ePackage
